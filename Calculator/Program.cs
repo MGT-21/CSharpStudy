@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Runtime.Intrinsics;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Calculator
 {
@@ -9,6 +11,12 @@ namespace Calculator
             Menu();
         }
 
+        static void ReturnToMenu()
+        {
+            Console.ReadKey();
+            Console.WriteLine("");
+            Menu();
+        }
         static void Menu()
         {
             Console.Clear();
@@ -22,7 +30,7 @@ namespace Calculator
             Console.WriteLine("2 - Subtração");
             Console.WriteLine("3 - Multiplicação");
             Console.WriteLine("4 - Divisão");
-            Console.WriteLine("5 - Encerrar aplicação")
+            Console.WriteLine("5 - Encerrar aplicação");
 
             Console.WriteLine("------------");
 
@@ -40,17 +48,14 @@ namespace Calculator
                 case 4: Divisao(); break;
 
                 case 5: System.Environment.Exit(0); break;
-                    
-                default: 
-                    Console.WriteLine("Opção invalida"); 
-                    Console.ReadKey();
-                    Menu();
-                    break;  
+
+                default:
+                    Console.WriteLine("Opção invalida");
+                    ReturnToMenu();
+                    break;
             }
 
-
         }
-
         static void Soma()
         {
             Console.Clear();
@@ -62,12 +67,10 @@ namespace Calculator
             double v2 = double.Parse(Console.ReadLine());
 
             Console.WriteLine("");
- 
+
             Console.WriteLine($"O resultado da soma é: {v1 + v2}");
 
-            Console.ReadKey();
-            Console.WriteLine("");
-            Menu();
+            ReturnToMenu();
         }
         static void Subtracao()
         {
@@ -81,12 +84,9 @@ namespace Calculator
 
             Console.WriteLine("");
 
-            Console.WriteLine($"O resultado da soma é: {v1 - v2}");
+            Console.WriteLine($"O resultado da subtração é: {v1 - v2}");
 
-            Console.ReadKey();
-            Console.WriteLine("");
-            Menu();
-
+            ReturnToMenu();
 
         }
 
@@ -102,12 +102,10 @@ namespace Calculator
 
             Console.WriteLine("");
 
-            Console.WriteLine($"O resultado da soma é: {v1 / v2}");
+            Console.WriteLine($"O resultado da divisão é: {v1 / v2}");
 
-            Console.ReadKey();
-            Console.WriteLine("");
-            Menu();
-            
+            ReturnToMenu();
+
         }
         static void Multiplicacao()
         {
@@ -121,12 +119,12 @@ namespace Calculator
 
             Console.WriteLine("");
 
-            Console.WriteLine($"O resultado da soma é: {v1 * v2}");
+            Console.WriteLine($"O resultado da multiplicação é: {v1 * v2}");
 
-            Console.ReadKey();
-            Console.WriteLine("");
-            Menu();
+            ReturnToMenu();
         }
+
+
     }
 
 }
