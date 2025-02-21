@@ -32,6 +32,7 @@ As técnicas e tecnologias utilizadas pra isso são:
 ## 📃 Lista de Projetos
 
 - Calculator: Calculadora para realização das quatro operações fundamentais (v1.0)
+- StopWatch: Temporizador simples que funciona em minutos e segundos (v1.0)
 
 
 
