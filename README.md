@@ -33,7 +33,7 @@ As técnicas e tecnologias utilizadas pra isso são:
 
 - Calculator: Calculadora para realização das quatro operações fundamentais (v1.0)
 - StopWatch: Temporizador simples que funciona em minutos e segundos (v1.0)
-
+- TextEditor: Editor de texto que pode criar e editar arquivos (v1.0)
 
 
 ## 🛠️ Abrir e rodar os projetos
