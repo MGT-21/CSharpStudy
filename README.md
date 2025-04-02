@@ -27,13 +27,17 @@ As técnicas e tecnologias utilizadas pra isso são:
 - `Estruturas condicionais`: If e Swich
 - `laços de repetiçoes`: While, Do/While, For 
 - `Métodos e Funções`: 
-- `Structs`: 
+- `Structs`:
+- `Exceptions`:
+- `Arrays`:
+- `Manipulação de strings`: 
 
 ## 📃 Lista de Projetos
 
 - Calculator: Calculadora para realização das quatro operações fundamentais (v1.0)
 - StopWatch: Temporizador simples que funciona em minutos e segundos (v1.0)
 - TextEditor: Editor de texto que pode criar e editar arquivos (v1.0)
+- HtmlEditor: Edita a cor do texto entre a tag strong e remove as tags simulando um editor HTML
 
 
 ## 🛠️ Abrir e rodar os projetos
