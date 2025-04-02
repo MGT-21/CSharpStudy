@@ -1,0 +1,14 @@
+C:\Users\Marcello\OneDrive\Área de Trabalho\HtmlEditor\bin\Debug\net9.0\HtmlEditor.exe
+C:\Users\Marcello\OneDrive\Área de Trabalho\HtmlEditor\bin\Debug\net9.0\HtmlEditor.deps.json
+C:\Users\Marcello\OneDrive\Área de Trabalho\HtmlEditor\bin\Debug\net9.0\HtmlEditor.runtimeconfig.json
+C:\Users\Marcello\OneDrive\Área de Trabalho\HtmlEditor\bin\Debug\net9.0\HtmlEditor.dll
+C:\Users\Marcello\OneDrive\Área de Trabalho\HtmlEditor\bin\Debug\net9.0\HtmlEditor.pdb
+C:\Users\Marcello\OneDrive\Área de Trabalho\HtmlEditor\obj\Debug\net9.0\HtmlEditor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marcello\OneDrive\Área de Trabalho\HtmlEditor\obj\Debug\net9.0\HtmlEditor.AssemblyInfoInputs.cache
+C:\Users\Marcello\OneDrive\Área de Trabalho\HtmlEditor\obj\Debug\net9.0\HtmlEditor.AssemblyInfo.cs
+C:\Users\Marcello\OneDrive\Área de Trabalho\HtmlEditor\obj\Debug\net9.0\HtmlEditor.csproj.CoreCompileInputs.cache
+C:\Users\Marcello\OneDrive\Área de Trabalho\HtmlEditor\obj\Debug\net9.0\HtmlEditor.dll
+C:\Users\Marcello\OneDrive\Área de Trabalho\HtmlEditor\obj\Debug\net9.0\refint\HtmlEditor.dll
+C:\Users\Marcello\OneDrive\Área de Trabalho\HtmlEditor\obj\Debug\net9.0\HtmlEditor.pdb
+C:\Users\Marcello\OneDrive\Área de Trabalho\HtmlEditor\obj\Debug\net9.0\HtmlEditor.genruntimeconfig.cache
+C:\Users\Marcello\OneDrive\Área de Trabalho\HtmlEditor\obj\Debug\net9.0\ref\HtmlEditor.dll
